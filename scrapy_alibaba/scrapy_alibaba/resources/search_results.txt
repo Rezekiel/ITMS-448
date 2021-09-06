@@ -1,0 +1,34 @@
+products:
+    css: 'div[data-content="productItem"]'
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: a.organic-gallery-title
+            xpath: ""
+            type: Text
+        price:
+            css: 'p.gallery-offer-price span'
+            xpath: ""
+            type: Text
+        seller_name:
+            css: a.organic-gallery-offer__seller-company
+            xpath: ""
+            type: Text
+        seller_years:
+            css: span.seller-tag__year
+            xpath: ""
+            type: Text
+        seller_response_rate:
+            css: span.seller-tag__response-rate
+            xpath: ""
+            type: Text
+        image:
+            css: 'a.organic-gallery-offer__img-section img'
+            xpath: ""
+            type: Attribute
+            attribute: src
+        link:
+            css: a.organic-gallery-title
+            xpath: ""
+            type: Link
